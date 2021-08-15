@@ -7,7 +7,6 @@
 //using namespace std;
 #define DIV 1024/1024
 #define DIVKB 1024
-#define WIDTH 7
 
 #pragma comment(lib, "ws2_32.lib")
 namespace KursResMonitor {
@@ -520,7 +519,6 @@ namespace KursResMonitor {
 			PROCESSENTRY32 proc;
 			proc.dwSize = sizeof(PROCESSENTRY32);
 			HANDLE hProcess;
-			PROCESS_MEMORY_COUNTERS pmc;
 			if (Process32First(hSnap, &proc))
 			{
 				do {
