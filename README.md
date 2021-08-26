@@ -1,7 +1,7 @@
 # resource-monitor
-Windows resource monitor implemented in C++, WinAPI.
+Windows resource monitor implemented in C++, WinAPI, Windows Forms.
 
-Монитор ресурсов Windows, разработанный на языке C++ с применением WinAPI.
+Монитор ресурсов Windows, разработанный на языке C++ с применением WinAPI, Windows Forms.
 
 Приложение выполнено в рамках курсовой работы по дисциплине "Системное программирование" на 3 курсе университета.
 
